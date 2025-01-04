@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "sticky",
+    "slug": "sticky",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kethanvr.sticky"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kethanvr.sticky"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb3fcbda-db58-41f4-8fdf-39d558d23283"
+      }
+    },
+    "owner": "kethan_vr",
+    "updates": {
+      "url": "https://u.expo.dev/cb3fcbda-db58-41f4-8fdf-39d558d23283"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
